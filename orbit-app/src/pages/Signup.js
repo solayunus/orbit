@@ -41,7 +41,7 @@ const Signup = () => {
         `signup`,
         credentials
       );
-
+console.log(data);
       authContext.setAuthState(data);
       setSignupSuccess(data.message);
       setSignupError('');
